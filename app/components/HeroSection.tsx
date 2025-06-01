@@ -180,9 +180,9 @@ export default function HeroSection() {
       </div>
 
       {/* Content - bewegt sich normal mit dem Scroll */}
-      <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
+      <div className="relative z-10 text-center max-w-6xl mx-auto px-4 sm:px-6">
         <div ref={titleRef}>
-          <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-bold mb-8 leading-none">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-bold mb-6 sm:mb-8 leading-none">
             <span className="block text-white font-serif">Vincent</span>
             <span className="block text-vangogh-gold font-serif text-glow-strong">
               van Gogh
@@ -192,22 +192,22 @@ export default function HeroSection() {
         
         <p 
           ref={subtitleRef}
-          className="text-xl md:text-2xl lg:text-3xl text-gray-300 max-w-4xl mx-auto mb-12 leading-relaxed"
+          className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-300 max-w-4xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4"
         >
           Eine Reise durch das Leben und die Kunst eines der größten Maler aller Zeiten
         </p>
         
         <div ref={scrollPromptRef}>
-          <p className="text-sm md:text-base text-gray-400 mb-6">Scrollen Sie für mehr</p>
-          <div className="w-px h-16 bg-gradient-to-b from-vangogh-gold to-transparent mx-auto animate-bounce" />
+          <p className="text-xs sm:text-sm md:text-base text-gray-400 mb-4 sm:mb-6">Scrollen Sie für mehr</p>
+          <div className="w-px h-12 sm:h-16 bg-gradient-to-b from-vangogh-gold to-transparent mx-auto animate-bounce" />
         </div>
       </div>
 
-      {/* Floating Art Elements */}
+      {/* Floating Art Elements - responsive positioning */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 left-10 w-20 h-20 border-2 border-vangogh-gold/30 rounded-full animate-float" />
-        <div className="absolute bottom-32 right-16 w-16 h-16 border-2 border-white/20 rounded-full animate-float" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/2 left-8 w-12 h-12 border-2 border-vangogh-gold/20 rounded-full animate-float" style={{ animationDelay: '4s' }} />
+        <div className="absolute top-16 sm:top-20 left-4 sm:left-10 w-12 h-12 sm:w-20 sm:h-20 border-2 border-vangogh-gold/30 rounded-full animate-float" />
+        <div className="absolute bottom-20 sm:bottom-32 right-4 sm:right-16 w-10 h-10 sm:w-16 sm:h-16 border-2 border-white/20 rounded-full animate-float" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/2 left-2 sm:left-8 w-8 h-8 sm:w-12 sm:h-12 border-2 border-vangogh-gold/20 rounded-full animate-float" style={{ animationDelay: '4s' }} />
       </div>
     </section>
   )

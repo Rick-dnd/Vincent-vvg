@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 
@@ -17,7 +17,13 @@ export const metadata: Metadata = {
   description: 'Eine moderne interaktive Website über das Leben und die Kunstwerke von Vincent van Gogh mit Parallax-Effekten',
   keywords: ['Vincent van Gogh', 'Kunst', 'Malerei', 'Parallax', 'Modern Design'],
   authors: [{ name: 'Vincent van Gogh Website' }],
-  viewport: 'width=device-width, initial-scale=1',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
   themeColor: '#020617',
 }
 
@@ -31,8 +37,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <meta name="format-detection" content="telephone=no" />
       </head>
-      <body className={`${inter.className} bg-midnight-950 text-white overflow-x-hidden`}>
+      <body className={`${inter.className} bg-midnight-950 text-white overflow-x-hidden min-h-screen`}>
         {children}
       </body>
     </html>

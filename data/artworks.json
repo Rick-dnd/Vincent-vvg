@@ -1,0 +1,174 @@
+{
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Sternennacht",
+      "year": 1889,
+      "period": "Saint-Rémy",
+      "description": "Blick aus dem Asylzimmer in Saint-Rémy. Ein wirbelnder Nachthimmel über einem ruhigen Dorf.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "73,7 × 92,1 cm",
+      "location": "Museum of Modern Art, New York",
+      "filename": "sternennacht.webp",
+      "fallback": "sternennacht.jpg",
+      "colors": ["#1e3a8a", "#fbbf24", "#065f46"],
+      "significance": "Eines der bekanntesten Gemälde der Welt, symbolisiert van Goghs einzigartige Vision der Natur."
+    },
+    {
+      "id": 2,
+      "title": "Sonnenblumen",
+      "year": 1888,
+      "period": "Arles",
+      "description": "Stillleben mit Sonnenblumen in einer Vase. Symbol für Freundschaft und Wärme.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "92 × 73 cm",
+      "location": "National Gallery, London",
+      "filename": "sonnenblumen.webp",
+      "fallback": "sonnenblumen.jpg",
+      "colors": ["#fbbf24", "#f59e0b", "#92400e"],
+      "significance": "Meisterwerk der Farbharmonie, geschaffen für Paul Gauguin's geplanten Besuch."
+    },
+    {
+      "id": 3,
+      "title": "Das Schlafzimmer in Arles",
+      "year": 1888,
+      "period": "Arles",
+      "description": "Darstellung seines einfachen Schlafzimmers als Symbol für Ruhe und Einfachheit.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "72 × 90 cm",
+      "location": "Van Gogh Museum, Amsterdam",
+      "filename": "schlafzimmer_arles.webp",
+      "fallback": "schlafzimmer_arles.jpg",
+      "colors": ["#3b82f6", "#fbbf24", "#10b981"],
+      "significance": "Zeigt van Goghs Sehnsucht nach einem einfachen, friedlichen Leben."
+    },
+    {
+      "id": 4,
+      "title": "Sternennacht über der Rhône",
+      "year": 1888,
+      "period": "Arles",
+      "description": "Romantische Nachtdarstellung der Rhône unter einem sternenklaren Himmel.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "72,5 × 92 cm",
+      "location": "Musée d'Orsay, Paris",
+      "filename": "sternennacht_rhone.webp",
+      "fallback": "sternennacht_rhone.jpg",
+      "colors": ["#1e40af", "#fbbf24", "#6366f1"],
+      "significance": "Erste große Nachtszene, zeigt van Goghs Faszination für das Licht der Sterne."
+    },
+    {
+      "id": 5,
+      "title": "Weizenfeld mit Krähen",
+      "year": 1890,
+      "period": "Auvers-sur-Oise",
+      "description": "Eines seiner letzten und düstersten Werke. Dramatische Landschaft unter bedrohlichem Himmel.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "50,5 × 103 cm",
+      "location": "Van Gogh Museum, Amsterdam",
+      "filename": "weizenfeld_kraehen.webp",
+      "fallback": "weizenfeld_kraehen.jpg",
+      "colors": ["#374151", "#fbbf24", "#065f46"],
+      "significance": "Mögliches letztes Gemälde, spiegelt van Goghs seelischen Zustand wider."
+    },
+    {
+      "id": 6,
+      "title": "Die Kartoffelesser",
+      "year": 1885,
+      "period": "Nuenen",
+      "description": "Darstellung einer Bauernfamilie beim Abendessen. Zeigt das harte Arbeiterleben.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "82 × 114 cm",
+      "location": "Van Gogh Museum, Amsterdam",
+      "filename": "kartoffelesser.webp",
+      "fallback": "kartoffelesser.jpg",
+      "colors": ["#92400e", "#451a03", "#fbbf24"],
+      "significance": "Erstes Meisterwerk, demonstriert van Goghs soziales Bewusstsein."
+    },
+    {
+      "id": 7,
+      "title": "Mandelblüte",
+      "year": 1890,
+      "period": "Saint-Rémy",
+      "description": "Blühende Mandelzweige vor blauem Himmel. Geschaffen zur Geburt seines Neffen.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "73,5 × 92 cm",
+      "location": "Van Gogh Museum, Amsterdam",
+      "filename": "mandelbluete.webp",
+      "fallback": "mandelbluete.jpg",
+      "colors": ["#3b82f6", "#fbbf24", "#10b981"],
+      "significance": "Symbol für neues Leben und Hoffnung, japanischer Einfluss deutlich sichtbar."
+    },
+    {
+      "id": 8,
+      "title": "Selbstporträt",
+      "year": 1889,
+      "period": "Saint-Rémy",
+      "description": "Intensiver Blick des Künstlers auf sich selbst. Zeigt seine psychische Verfassung.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "65 × 54 cm",
+      "location": "Musée d'Orsay, Paris",
+      "filename": "selbstportraet.webp",
+      "fallback": "selbstportraet.jpg",
+      "colors": ["#059669", "#f59e0b", "#dc2626"],
+      "significance": "Eines von über 30 Selbstporträts, zeigt van Goghs Selbstreflexion."
+    },
+    {
+      "id": 9,
+      "title": "Das gelbe Haus",
+      "year": 1888,
+      "period": "Arles",
+      "description": "Seine Künstlerresidenz in Arles. Symbol für seinen Traum einer Künstlergemeinschaft.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "72 × 91,5 cm",
+      "location": "Van Gogh Museum, Amsterdam",
+      "filename": "gelbes_haus.webp",
+      "fallback": "gelbes_haus.jpg",
+      "colors": ["#fbbf24", "#3b82f6", "#10b981"],
+      "significance": "Zentrum seiner Träume von einer Künstlergemeinschaft im Süden Frankreichs."
+    },
+    {
+      "id": 10,
+      "title": "Porträt von Dr. Gachet",
+      "year": 1890,
+      "period": "Auvers-sur-Oise",
+      "description": "Porträt seines Arztes und Freundes Dr. Paul Gachet in melancholischer Pose.",
+      "technique": "Öl auf Leinwand",
+      "dimensions": "68 × 57 cm",
+      "location": "Privatsammlung",
+      "filename": "dr_gachet.webp",
+      "fallback": "dr_gachet.jpg",
+      "colors": ["#3b82f6", "#fbbf24", "#ef4444"],
+      "significance": "Eines der teuersten Gemälde aller Zeiten, zeigt van Goghs Beziehung zu seinem Arzt."
+    }
+  ],
+  "periods": {
+    "early": {
+      "name": "Frühe Jahre",
+      "years": "1853-1885",
+      "description": "Suche nach Berufung, erste künstlerische Versuche",
+      "location": "Niederlande",
+      "characteristics": ["Dunkle Farben", "Soziale Themen", "Realismus"]
+    },
+    "arles": {
+      "name": "Arles-Periode",
+      "years": "1888-1889",
+      "description": "Produktivste Phase, leuchtende Farben, japanischer Einfluss",
+      "location": "Arles, Frankreich",
+      "characteristics": ["Helle Farben", "Experimentelle Techniken", "Optimismus"]
+    },
+    "saint_remy": {
+      "name": "Saint-Rémy-Periode",
+      "years": "1889-1890",
+      "description": "Zeit im Asylum, intensive emotionale Werke",
+      "location": "Saint-Rémy-de-Provence, Frankreich",
+      "characteristics": ["Wirbelnde Formen", "Emotionale Intensität", "Naturverbundenheit"]
+    },
+    "auvers": {
+      "name": "Auvers-sur-Oise",
+      "years": "1890",
+      "description": "Letzte Monate, dramatische Landschaften",
+      "location": "Auvers-sur-Oise, Frankreich",
+      "characteristics": ["Dramatik", "Melancholie", "Meisterwerke"]
+    }
+  }
+} 
